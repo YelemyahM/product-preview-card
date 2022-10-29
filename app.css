@@ -1,0 +1,81 @@
+body {
+  font-size: 14px;
+  background: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  color: hsl(212, 21%, 14%);
+  margin: 0;
+  padding-left: 30px;
+}
+
+.card {
+  border-radius: 5px;
+  background: #fff;
+}
+
+.top-card {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.body-card {
+  padding-bottom: 20px;
+}
+
+.description {
+  line-height: 1.8em;
+  padding: 0 20px 0 30px;
+}
+
+.price {
+  display: flex;
+}
+
+.right-price {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  color: hsl(158, 36%, 37%);
+  margin: 0 20px 10px 0;
+  padding-left: 30px;
+}
+
+.wrong-price {
+  text-decoration: line-through;
+}
+
+.add-to-card {
+  background: hsl(158, 36%, 37%);
+  color: #fff;
+  cursor: pointer;
+  width: 295px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.add-to-card svg {
+  margin-right: 10px;
+}
+
+.add-to-card:active {
+  background: hsl(158, 44%, 15%);
+}
