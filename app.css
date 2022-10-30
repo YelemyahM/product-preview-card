@@ -22,13 +22,17 @@ h2 {
 }
 
 .card {
-  border-radius: 5px;
+  width: 357px;
+  margin: 0 auto;
+  border-radius: 10px;
   background: #fff;
 }
 
-.top-card {
+.img-card {
   width: 100%;
-  border-radius: 5px 5px 0 0;
+  height: 250px;
+  background: url(img/img-mobile.jpg) center / contain no-repeat;
+  border-radius: 10px 10px 0 0;
 }
 
 .body-card {
@@ -78,4 +82,49 @@ h2 {
 
 .add-to-card:active {
   background: hsl(158, 44%, 15%);
+}
+
+@media screen and (min-width: 650px) {
+  body {
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    margin-top: 20px;
+  }
+
+  h2 {
+    padding: 0 30px;
+  }
+
+  .card {
+    display: flex;
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .img-card {
+    width: 50%;
+    height: 100%;
+    background: url(img/img-desktop.jpg) center / contain no-repeat;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .body-card {
+    width: 50%;
+  }
+
+  .description {
+    padding: 0 30px;
+  }
+
+  .add-to-card {
+    width: 237px;
+    height: 49px;
+  }
 }
